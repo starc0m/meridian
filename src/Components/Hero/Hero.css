@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Manrope:wght@200..800&display=swap');
+
+
+
+.hero__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+    background-image: url('../../assets/./hero.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.hero__title_block {
+    text-align: start;
+    width: 800px;
+    margin-left: 80px;
+
+}
+
+.hero__subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-style:bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+    letter-spacing: 3%;
+    color: #D99B26;
+    margin: 10px 0;
+
+}
+
+.hero__title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #F5F5F7;
+    margin: 10px 0;
+    line-height: 105px;
+    font-weight: 200;
+
+}
+
+.hero__text {
+    font-family: 'Manrope', sans-serif;
+    font-style: regular ;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #A3A3A3;
+    margin: 10px 0;
+}

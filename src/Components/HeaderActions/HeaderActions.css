@@ -1,0 +1,53 @@
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.select {
+  width: 43px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.option {
+  width: 100px;
+  height: 30px;
+  background-color: #0A0A0A;
+  color: white;
+}
+
+.option:hover {
+  background-color: #1A1A1A;
+}
+
+.HeaderActions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.signin {
+    border-radius: 4px;
+    width: 79px;
+    height: 38px;
+    border: solid 1px orange;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #0A0A0A;
+    color: white;
+}
+
+.signin:hover {
+    transition: background-color 0.3s ease-in-out;
+    color: black;
+    background-color: orange;
+}
+
+.signin:active {
+    transition: background-color 0.1s ease-in-out;
+    background-color: orange;
+}

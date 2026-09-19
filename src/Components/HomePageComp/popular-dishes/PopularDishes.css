@@ -1,0 +1,76 @@
+.popular-dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 913px;
+  padding-top: 100px;
+
+}
+
+.popular-dishes__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.popular-dishes__card {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+  border: #262626 1px solid;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #141414;
+  width: 400px;
+  height: 500px;
+}
+
+.popular-dishes__name {
+    color: white;
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 24px;
+  margin-left: 24px;
+
+}
+
+.popular-dishes__price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: orange;
+    margin-top: 24px;
+
+    border-top: #A3A3A3 1px solid;
+
+}
+
+.popular-dishes__subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: orange;
+  margin-left: 24px;
+}
+
+.popular-dishes__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 24px;
+}
+
+.popular-dishes__description {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #A3A3A3;
+  margin-left: 24px;
+  margin-right: 24px;
+}

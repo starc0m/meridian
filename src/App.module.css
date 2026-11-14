@@ -1,0 +1,19 @@
+.h{
+    background-color: black;
+	position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 1;
+
+    padding: 0 80px;
+    margin:  0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+}
+@media (max-width: 800px) {
+    .h {
+        padding: 5px 30px;
+    }
+}

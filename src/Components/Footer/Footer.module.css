@@ -1,0 +1,201 @@
+/* Основной контейнер */
+.footer {
+    background-color: #0d0d0d; /* Темный фон, почти черный */
+    color: #9e9e9e; /* Серый цвет текста по умолчанию */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 80px 40px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Верхняя часть с колонками */
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* Колонки */
+.brandColumn {
+  flex: 0 1 400px;
+}
+
+.infoColumn {
+  flex: 0 1 250px;
+}
+
+/* Типографика */
+.logo {
+  color: #ffffff;
+  font-family: "Playfair Display", "Times New Roman", serif; /* Шрифт с засечками */
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  margin: 0 0 24px 0;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #888888;
+}
+
+.columnTitle {
+  color: #c99b3b; /* Золотистый цвет */
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 24px 0;
+}
+
+.text {
+  font-size: 14px;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+/* Ссылки и акценты */
+.highlightLink {
+  color: #c99b3b;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 16px;
+  transition: opacity 0.2s;
+}
+
+.highlightLink:hover {
+  opacity: 0.8;
+}
+
+.textLink {
+  color: #9e9e9e;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 16px;
+  transition: color 0.2s;
+}
+
+.textLink:hover {
+  color: #ffffff;
+}
+
+.highlightText {
+  color: #c99b3b;
+  font-size: 14px;
+  margin: 24px 0 0 0;
+}
+
+/* Социальные сети */
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socialLink {
+  color: #c99b3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.socialLink:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Разделитель */
+.divider {
+  border: none;
+  border-top: 1px solid #222222;
+  max-width: 1300px;
+  margin: 0 auto 30px;
+}
+
+/* Нижняя часть (Копирайт и ссылки) */
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin: 0;
+  color: #666666;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 32px;
+}
+
+.legalLink {
+  color: #666666;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.legalLink:hover {
+  color: #9e9e9e;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 992px) {
+  .topSection {
+    flex-wrap: wrap;
+  }
+  .brandColumn {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+  .infoColumn {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 50px 20px 30px;
+  }
+
+  .topSection {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .infoColumn {
+    flex: 1 1 100%;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .legalLinks {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
